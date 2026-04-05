@@ -2,6 +2,7 @@ import {Composition, Folder} from "remotion";
 
 // Compositions
 import {ShowcaseComposition} from "./compositions/Showcase";
+import {MetodoALMA, MetodoALMA15s} from "./compositions/MetodoALMA";
 
 // Social templates
 import {TikTokVideo} from "./templates/social/TikTokVideo";
@@ -129,6 +130,25 @@ export const RemotionRoot: React.FC = () => {
           fps={30}
           width={1920}
           height={1080}
+        />
+      </Folder>
+
+      <Folder name="MetodoALMA">
+        <Composition
+          id="MetodoALMA"
+          component={MetodoALMA}
+          durationInFrames={1050}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+        <Composition
+          id="MetodoALMA15s"
+          component={MetodoALMA15s}
+          durationInFrames={450}
+          fps={30}
+          width={1080}
+          height={1920}
         />
       </Folder>
 
