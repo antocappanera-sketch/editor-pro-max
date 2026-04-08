@@ -1,11 +1,11 @@
 {
-  "duration": 201.681333,
+  "duration": 164.164,
   "width": 1080,
   "height": 1920,
-  "fps": 30,
-  "videoCodec": "hevc",
+  "fps": 29.97002997002997,
+  "videoCodec": "h264",
   "audioCodec": "aac",
-  "bitrate": 9798652,
-  "fileSize": 247025666,
+  "bitrate": 4639111,
+  "fileSize": 95196881,
   "hasAudio": true
 }

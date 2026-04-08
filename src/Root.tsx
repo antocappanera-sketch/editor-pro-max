@@ -4,6 +4,7 @@ import {Composition, Folder} from "remotion";
 import {ShowcaseComposition} from "./compositions/Showcase";
 import {MetodoALMA, MetodoALMA15s} from "./compositions/MetodoALMA";
 import {TEDxCosquin} from "./compositions/TEDxCosquin";
+import {Perfeccionista, TOTAL_FRAMES as PERF_FRAMES} from "./compositions/Perfeccionista";
 
 // Social templates
 import {TikTokVideo} from "./templates/social/TikTokVideo";
@@ -147,6 +148,17 @@ export const RemotionRoot: React.FC = () => {
           id="MetodoALMA15s"
           component={MetodoALMA15s}
           durationInFrames={450}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      </Folder>
+
+      <Folder name="Reels ALMA">
+        <Composition
+          id="Perfeccionista"
+          component={Perfeccionista}
+          durationInFrames={PERF_FRAMES}
           fps={30}
           width={1080}
           height={1920}
