@@ -204,7 +204,7 @@ const CaptionPage: React.FC<CaptionPageProps> = ({
           fontFamily,
           fontWeight: 800,
           lineHeight: 1.3,
-          whiteSpace: "pre",
+          whiteSpace: "pre-wrap",
         }}
       >
         {page.tokens.map((token, i) => {

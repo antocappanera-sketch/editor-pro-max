@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(start \"\" \"http://localhost:3000\")",
+      "Bash(start \"\" \"C:/Users/Antonela/editor-pro-max/landing.html\")",
+      "Bash(mkdir -p public/assets)",
+      "Bash(cp \"C:/Users/Antonela/Downloads/AC.svg\" public/assets/logo-alma.svg)",
+      "Bash(npx tsx:*)",
+      "Bash(ls \"C:/Users/Antonela/editor-pro-max/.claude/worktrees/gifted-snyder/whisper.cpp/\"*.bin)",
+      "Bash(WHISPER_MODEL=medium WHISPER_LANG=es npx tsx scripts/transcribe.ts)",
+      "Bash(gh api:*)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(gh auth:*)",
+      "Bash(git config:*)"
+    ]
+  }
+}
