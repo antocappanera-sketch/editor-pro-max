@@ -154,7 +154,7 @@ export const RemotionRoot: React.FC = () => {
         />
       </Folder>
 
-      <Folder name="Reels ALMA">
+      <Folder name="ReelsALMA">
         <Composition
           id="Perfeccionista"
           component={Perfeccionista}
